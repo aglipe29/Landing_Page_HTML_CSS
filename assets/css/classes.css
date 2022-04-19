@@ -18,9 +18,15 @@
 
 .section {
     min-height: 100vh;
-    padding-top: 3.5rem;
+    padding-top: 4rem;
+    padding-bottom: 5.5rem;
 }
 
 .menu-spacing{
     height: 65px;
+}
+
+body.full-width{
+    width: 100%;
+    flex: 1 1 100%;
 }
