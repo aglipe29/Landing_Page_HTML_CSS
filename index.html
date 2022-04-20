@@ -15,13 +15,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 <body >
+
+  <input id="Close-menu" class="Close-menu" type="checkbox" aria-label="Close Menu" role="button">
+  <label class="Close-menu-label" for="Close-menu" title="Close menu"></label>
   <aside class="menu white-vg">
       <div class="main-content menu-content">
-      <h1><a href="#home">LOGO</a>
+      <h1 onclick="getElementById('Close-menu').checked = false"><a href="#home">LOGO</a>
         </h1>
 
       <nav>
-          <ul>
+          <ul onclick="getElementById('Close-menu').checked = false">
               <li><a href="#intro">intro</a></li>
               <li><a href="#grid-one">grid-one</a></li>
               <li><a href="#gallery">gallery</a></li>
@@ -272,5 +275,7 @@
 <footer id="footer" class="footer">
   <p><a href="https://github.com/aglipe29" target="_blank">Feito com carinho por Filipe de Aguiar Ribeiro</a></p>
 </footer>
+
+<a class="back-to-top" href="#">➤</a>
 </body>
 </html>
