@@ -204,7 +204,7 @@
         position: fixed;
         z-index: 2;
         top: 2rem;
-        right: 8rem;
+        right: 9rem;
         background: var(--primary-color);
         color: var(--white-color);
         font-size: 3rem;
@@ -233,7 +233,7 @@
     font-size: 1.5rem;
     position: fixed;
     bottom: 2rem;
-    right: 8rem;
+    right: 9rem;
     background: var(--white-color);
     width: 4rem;
     height: 4rem;
